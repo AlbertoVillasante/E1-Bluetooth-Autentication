@@ -1,0 +1,3 @@
+/Users/alberto/Desktop/uni/TFG/implementacion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/alberto/Desktop/uni/TFG/implementacion/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/alberto/Desktop/uni/TFG/implementacion/cmake-build-debug/CMakeFiles/implementacion.dir

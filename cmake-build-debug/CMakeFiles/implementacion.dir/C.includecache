@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/alberto/Desktop/uni/TFG/implementacion/saferplus.c
+saferplus.h
+/Users/alberto/Desktop/uni/TFG/implementacion/saferplus.h
+stdlib.h
+-
+
+/Users/alberto/Desktop/uni/TFG/implementacion/saferplus.h
+
