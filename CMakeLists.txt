@@ -3,4 +3,4 @@ project(implementacion C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(implementacion main.c saferplus.c saferplus.h aux.c aux.h)
+add_executable(implementacion main.c saferplus.c saferplus.h aux.c aux.h e1.c e1.h)

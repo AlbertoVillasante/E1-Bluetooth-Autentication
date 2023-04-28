@@ -23,15 +23,14 @@ void printDec(unsigned char* number) {
         printf("%u ", number[i]);
     }
 }
-
 /*
- * Function that generates a random number of 128 bits
+ * Function that generates a random number of 128 bits and allocs the memory for it
  * INPUT: none
  * OUTPUT: the 128 bits random number
  */
-unsigned char* generateRandom() {
-    unsigned char* random = (unsigned char*) malloc(RANDOM_SIZE * sizeof(unsigned char));
-    for (int i = 0; i < RANDOM_SIZE; i++) {
+unsigned char* generateRandom(short randomSize) {
+    unsigned char* random = (unsigned char*) malloc(randomSize * sizeof(unsigned char));
+    for (int i = 0; i < randomSize; i++) {
         random[i] = (unsigned char) rand();
     }
     return random;

@@ -82,6 +82,12 @@
 		<Unit filename="/Users/alberto/Desktop/uni/TFG/implementacion/aux.h">
 			<Option target="implementacion"/>
 		</Unit>
+		<Unit filename="/Users/alberto/Desktop/uni/TFG/implementacion/e1.c">
+			<Option target="implementacion"/>
+		</Unit>
+		<Unit filename="/Users/alberto/Desktop/uni/TFG/implementacion/e1.h">
+			<Option target="implementacion"/>
+		</Unit>
 		<Unit filename="/Users/alberto/Desktop/uni/TFG/implementacion/main.c">
 			<Option target="implementacion"/>
 		</Unit>

@@ -4,10 +4,17 @@
 CMakeFiles/implementacion.dir/aux.c.o: ../aux.c
 CMakeFiles/implementacion.dir/aux.c.o: ../aux.h
 
+CMakeFiles/implementacion.dir/e1.c.o: ../aux.h
+CMakeFiles/implementacion.dir/e1.c.o: ../e1.c
+CMakeFiles/implementacion.dir/e1.c.o: ../e1.h
+CMakeFiles/implementacion.dir/e1.c.o: ../saferplus.h
+
 CMakeFiles/implementacion.dir/main.c.o: ../aux.h
+CMakeFiles/implementacion.dir/main.c.o: ../e1.h
 CMakeFiles/implementacion.dir/main.c.o: ../main.c
 CMakeFiles/implementacion.dir/main.c.o: ../saferplus.h
 
+CMakeFiles/implementacion.dir/saferplus.c.o: ../aux.h
 CMakeFiles/implementacion.dir/saferplus.c.o: ../saferplus.c
 CMakeFiles/implementacion.dir/saferplus.c.o: ../saferplus.h
 
