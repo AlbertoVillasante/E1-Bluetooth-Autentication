@@ -17,6 +17,8 @@ stdlib.h
 -
 time.h
 -
+sys/time.h
+-
 e1.h
 /Users/alberto/Desktop/uni/TFG/implementacion/e1.h
 saferplus.h

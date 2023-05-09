@@ -9,7 +9,7 @@
  * OUTPUT: none
  */
 void printHex(unsigned char* number) {
-    for (int i = 0; i < RANDOM_SIZE; i++) {
+    for (int i = 0; i < RANDOMSIZE; i++) {
         printf("%02x", number[i]);
     }
 }
@@ -19,7 +19,7 @@ void printHex(unsigned char* number) {
  * OUTPUT: none
  */
 void printDec(unsigned char* number) {
-    for (int i = 0; i < RANDOM_SIZE; i++) {
+    for (int i = 0; i < RANDOMSIZE; i++) {
         printf("%u ", number[i]);
     }
 }

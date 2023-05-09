@@ -11,7 +11,7 @@
 
 
 
-unsigned char* A_r(unsigned char** roundKeys, unsigned char* rand); // Function that implements the SAFER+ algorithm
+unsigned char* A_r(unsigned char** roundKeys, unsigned char* input, short isArPrime); // Function that implements the SAFER+ algorithm
 unsigned char** keyScheduling(const unsigned char* k); // Function that implements the key scheduling algorithm
 
 #endif //IMPLEMENTACION_SAFERPLUS_H
