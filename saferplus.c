@@ -181,7 +181,7 @@ void PHT(unsigned char* input){
  * INPUT: input - the 128 bits array
  * OUTPUT: the 128 bits result of the Armenian Shuffle
  */
-void ArmenianShuffle(unsigned char* input) {
+void armenianShuffle(unsigned char* input) {
     unsigned char temp[16]; // temporary array
     temp[0] = input[8];
     temp[1] = input[11];
@@ -237,9 +237,6 @@ unsigned char* A_r(unsigned char** roundKeys, unsigned char* input, short isArPr
     memcpy(result, input, KEYSIZE);
 
 
-
-
-
     /* Apply the 8 rounds of the SAFER+ algorithm */
     printf("\n -------------------------- \n");
     for(int r=0; r < NUMROUNDS; r++){
@@ -268,15 +265,15 @@ unsigned char* A_r(unsigned char** roundKeys, unsigned char* input, short isArPr
         /* Pseudo-Hadamard Transform */
         PHT(result);
         /* Armenian Shuffle */
-        ArmenianShuffle(result);
+        armenianShuffle(result);
         /* Pseudo-Hadamard Transform */
         PHT(result);
         /* Armenian Shuffle */
-        ArmenianShuffle(result);
+        armenianShuffle(result);
         /* Pseudo-Hadamard Transform */
         PHT(result);
         /* Armenian Shuffle */
-        ArmenianShuffle(result);
+        armenianShuffle(result);
         /* Pseudo-Hadamard Transform */
         PHT(result);
     }

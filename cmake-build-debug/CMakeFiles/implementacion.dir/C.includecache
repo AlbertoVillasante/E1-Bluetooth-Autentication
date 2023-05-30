@@ -8,21 +8,13 @@
 
 /Users/alberto/Desktop/uni/TFG/implementacion/aux.h
 
-/Users/alberto/Desktop/uni/TFG/implementacion/e1.h
-
-/Users/alberto/Desktop/uni/TFG/implementacion/main.c
-stdio.h
--
-stdlib.h
--
-time.h
--
-sys/time.h
--
-e1.h
-/Users/alberto/Desktop/uni/TFG/implementacion/e1.h
+/Users/alberto/Desktop/uni/TFG/implementacion/saferplus.c
 saferplus.h
 /Users/alberto/Desktop/uni/TFG/implementacion/saferplus.h
+stdlib.h
+-
+libc.h
+-
 aux.h
 /Users/alberto/Desktop/uni/TFG/implementacion/aux.h
 

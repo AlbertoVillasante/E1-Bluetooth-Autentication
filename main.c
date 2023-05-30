@@ -15,19 +15,18 @@ int main() {
     double tiempo, total, min, max;
 
 
-    srand(1);
+
     random = generateRandom(RANDOMSIZE);
     //printHex(random);
     //printf("\n");
-    srand(4);
     key = generateRandom(KEYSIZE);
-    //printHex(key);
+    //printHex(key);srand(5)
     btAddr = generateRandom(BTADDRSIZE);
-
+/*
     for (int i = 0; i < RANDOMSIZE; i++) {
         random[i] = 0;
     }
-
+*
     // Inicializar addr
     for (int i = 0; i < BTADDRSIZE; i++) {
         btAddr[i] = 0;
@@ -37,6 +36,7 @@ int main() {
     for (int i = 0; i < KEYSIZE; i++) {
         key[i] = 0;
     }
+*/
     gettimeofday(&inicio,NULL);
     for (int i = 0; i < ITER; ++i) {
         e1(key, random, btAddr);
