@@ -1,4 +1,3 @@
-
 #ifndef IMPLEMENTACION_E1_H
 #define IMPLEMENTACION_E1_H
 #define BTADDRSIZE 6 // L: Length of the Bluetooth address

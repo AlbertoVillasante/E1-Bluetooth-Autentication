@@ -1,0 +1,105 @@
+Clave utilizada: 00000000000000000000000000000000
+*************
+Input ronda 1
+ -> 00000000000000000000000000000000
+ [+] Después de primera operación add xor -> 00000000000000000000000000000000
+ [+] Después de cajas de sustitución -> 01808001018080010180800101808001
+ [+] Después de segunda operación add xor -> 471731bba437900bc6b733ca5ba82c65
+ [+] Después de PHT 1-> a55e1dec7fdb2b9b437d30fd5e03bd91
+ [+] Después de Armenian Shuffle 1-> 43fd5e911d5e2bdb307dbd03a59b7fec
+ [+] Después de PHT 2 -> 83404def987b3106ddad7dc0e540ea6b
+ [+] Después de Armenian Shuffle 2 -> ddc0e56b4d40317b7dadea40830698ef
+ [+] Después de PHT 3 -> 7a9d3550da8dddaca72a142a0c891f87
+ [+] Después de Armenian Shuffle 3 -> a72a0c87359ddd8d142a1f897aacda50
+ [+] Después de PHT 4-> 78d19f9307d2476a523ec7a8a026042a
+*************
+Input ronda 2
+ -> 78d19f9307d2476a523ec7a8a026042a
+ [+] Después de primera operación add xor -> 947c495560679f67aad8bdc6c6020917
+ [+] Después de cajas de sustitución -> 16e28ca304112ab6622b184f4fb0126b
+ [+] Después de segunda operación add xor -> a021542c6ef81cffa594f323e52b7a0b
+ [+] Después de PHT 1-> 61c1d480d466371bde390916f510ff85
+ [+] Después de Armenian Shuffle 1-> de16f585d4c137660939ff10611bd480
+ [+] Después de PHT 2 -> d2f46f7a6995d49d4b420e0fdd7c2854
+ [+] Después de Armenian Shuffle 2 -> 4b0fdd546ff4d4950e42287cd29d697a
+ [+] Después de PHT 3 -> a55a0e31d2633d695e50cca4416f4ce3
+ [+] Después de Armenian Shuffle 3 -> 5ea441e30e5a3d63cc504c6fa569d231
+ [+] Después de PHT 4-> 600265247668dda0e81c07bbb30ed503
+*************
+Input ronda 3
+ -> 600265247668dda0e81c07bbb30ed503
+ [+] Después de primera operación add xor -> 3d59f73ba3d9391bcaddc5c00fa73897
+ [+] Después de cajas de sustitución -> 91961fba657f6e1b68f2d8103f310d96
+ [+] Después de segunda operación add xor -> bbf7a7ee976693167fb23e615c704925
+ [+] Después de PHT 1-> 6db23c9594fd3ca9b031dd9f28ccb76e
+ [+] Después de Armenian Shuffle 1-> b09f286e3cb23cfddd31b7cc6da99495
+ [+] Después de PHT 2 -> ff4fbe962aee7539eb0e3a838316bd29
+ [+] Después de Armenian Shuffle 2 -> eb838329be4f75ee3a0ebd16ff392a96
+ [+] Después de PHT 3 -> 596e2faccb0dd863824890d33738eac0
+ [+] Después de Armenian Shuffle 3 -> 82d337c02f6ed80d9048ea385963cbac
+ [+] Después de PHT 4-> d7552ef7cc9dbde568d80c2215bc4277
+*************
+Input ronda 4
+ -> d7552ef7cc9dbde568d80c2215bc4277
+ [+] Después de primera operación add xor -> 0a59ae292bce939a697a031bcf2b65bd
+ [+] Después de cajas de sustitución -> 879607c0d8c103cd0c8a091bed47a370
+ [+] Después de segunda operación add xor -> c1461b9108ff116ed985e9c39cc5fa9c
+ [+] Después de PHT 1-> c807c7ac0f07907f375e95acfd619096
+ [+] Después de Armenian Shuffle 1-> 37acfd96c7079007955e9061c87f0fac
+ [+] Después de PHT 2 -> 1ae3909395ce279788f381f10f47cabb
+ [+] Después de Armenian Shuffle 2 -> 88f10fbb90e327ce81f3ca471a979593
+ [+] Después de PHT 3 -> 0179d9ca03731cf5f574db11cbb1bd28
+ [+] Después de Armenian Shuffle 3 -> f511cb28d9791c73db74bdb101f503ca
+ [+] Después de PHT 4-> fb06bef32b52ab8f2a4f2b6ef7f6d0cd
+*************
+Input ronda 5
+ -> fb06bef32b52ab8f2a4f2b6ef7f6d0cd
+ [+] Después de primera operación add xor -> 86b3701ce9d979fa2c622dfeb82442fe
+ [+] Después de cajas de sustitución -> ecf3bdbbf57fc831d3aa013af0729d3a
+ [+] Después de segunda operación add xor -> ac7e7264769d0c5802c67bd942938872
+ [+] Después de PHT 1-> d62a48d689137064cac8cf5417d582fa
+ [+] Después de Armenian Shuffle 1-> ca5417fa482a7013cfc882d5d66489d6
+ [+] Después de PHT 2 -> e81e2811ba72f3836697d957103ae85f
+ [+] Después de Armenian Shuffle 2 -> 6657105f281ef372d997e83ae883ba11
+ [+] Después de PHT 3 -> 23bd7f6f6e46586549700a22536b85cb
+ [+] Después de Armenian Shuffle 3 -> 492253cb7fbd58460a70856b23656e6f
+ [+] Después de PHT 4-> b46b711ebb3cf69e847a75f0ab884bdd
+*************
+Input ronda 6
+ -> b46b711ebb3cf69e847a75f0ab884bdd
+ [+] Después de primera operación add xor -> 488bb3d9b320ffcbda068986cb872a0a
+ [+] Después de cajas de sustitución -> 8856f37f257030363db988ec360ab687
+ [+] Después de segunda operación add xor -> 825dd27f3f8996ef2527ea380f9be659
+ [+] Después de PHT 1-> 61df235107c81b85714c0c22b9aa253f
+ [+] Después de Armenian Shuffle 1-> 7122b93f23df1bc80c4c25aa61850751
+ [+] Después de PHT 2 -> 0493b1f82502fee36458f4cf47e65f58
+ [+] Después de Armenian Shuffle 2 -> 64cf4758b193fe02f4585fe604e325f8
+ [+] Después de PHT 3 -> 9733e69ff544fe00404ca445ebe7421d
+ [+] Después de Armenian Shuffle 3 -> 4045eb1de633fe44a44c42e79700f59f
+ [+] Después de PHT 4-> c585f308ff19404294f06b292e978994
+*************
+Input ronda 7
+ -> c585f308ff19404294f06b292e978994
+ [+] Después de primera operación add xor -> dd39fa8c1574e48a9abbb34065e525a1
+ [+] Después de cajas de sustitución -> e56e7d4926aece7acd1cf3f113ddb3cc
+ [+] Después de segunda operación add xor -> 2a23292e4b92c2c458233f98eeb61dc0
+ [+] Después de PHT 1-> 774d805728dd4886d37b16d792a4fadd
+ [+] Después de Armenian Shuffle 1-> d3d792dd804d48dd167bfaa477862857
+ [+] Después de PHT 2 -> 7daa016f4dcd6d25a791989e74fda77f
+ [+] Después de Armenian Shuffle 2 -> a79e747f01aa6dcd9891a7fd7d254d6f
+ [+] Después de PHT 3 -> ec4567f3acaba73ac1294ba41fa209bc
+ [+] Después de Armenian Shuffle 3 -> c1a41fbc6745a7ab4b2909a2ec3aacf3
+ [+] Después de PHT 4-> 2665fadb13acf952bf74b4ab12264b9f
+*************
+Input ronda 8
+ -> 2665fadb13acf952bf74b4ab12264b9f
+ [+] Después de primera operación add xor -> 0b5876b68e611f264d07071be237381c
+ [+] Después de cajas de sustitución -> a4f4d62a32df823b84fdfd1b7cd30dbb
+ [+] Después de segunda operación add xor -> 5af7c09d6dc10cab417be662faf75bac
+ [+] Después de PHT 1-> ab511d5d9b2ec3b7fdbc2e48ebf16207
+ [+] Después de Armenian Shuffle 1-> fd48eb071d51c32e2ebc62f1abb79b5d
+ [+] Después de PHT 2 -> 4245ddf28b6eb4f118eab5530d6293f8
+ [+] Después de Armenian Shuffle 2 -> 18530df8dd45b46eb5ea936242f18bf2
+ [+] Después de PHT 3 -> 836b1205ff22d622549f88f57533087d
+ [+] Después de Armenian Shuffle 3 -> 54f5757d126bd622889f08338322ff05
+ [+] Después de PHT 4-> 9d4967f28f7dcef8af27433b28a50304

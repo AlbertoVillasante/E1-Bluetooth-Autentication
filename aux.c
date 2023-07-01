@@ -1,8 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "aux.h"
-
-
 /*
  * Function that print the 128 bits number in hexadecimal
  * INPUT: the 128 bits number

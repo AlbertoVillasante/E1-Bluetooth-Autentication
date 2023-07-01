@@ -210,45 +210,13 @@ unsigned char* A_r(unsigned char** roundKeys, unsigned char* input, short isArPr
     unsigned char* result;
     unsigned char* roundKey;
     unsigned char* nextRoundKey;
-
-    if(isArPrime) {
-        printf("\n\nA_r prime metiendo modificada la entrada para el test xd");
-        // 21, 143, 254, 67, 53, 32, 133, 232, 165, 236, 122, 136, 225, 255, 43, 168
-        input[0] = 21;
-        input[1] = 143;
-        input[2] = 254;
-        input[3] = 67;
-        input[4] = 53;
-        input[5] = 32;
-        input[6] = 133;
-        input[7] = 232;
-        input[8] = 165;
-        input[9] = 236;
-        input[10] = 122;
-        input[11] = 136;
-        input[12] = 225;
-        input[13] = 255;
-        input[14] = 43;
-        input[15] = 168;
-    }
-
     /* Allocate memory for the result (at first is the input) */
     result = (unsigned char *) malloc(KEYSIZE * sizeof(unsigned char));
     memcpy(result, input, KEYSIZE);
-
-
     /* Apply the 8 rounds of the SAFER+ algorithm */
-    printf("\n -------------------------- \n");
     for(int r=0; r < NUMROUNDS; r++){
-        printf("\nRound %d", r+1);
-        printf("\nInput: ");
-        printHex(result);
         /* Add and xor the third input with the input if it is Ar prime */
         if(r == 2 && isArPrime){
-            printf("\nResult aaaaa: ");
-            printDec(result);
-            printf("\nInput aaaaaa: ");
-            printDec(input);
             firstAddXor(result, input);
         }
         /* Select the round keys */
@@ -260,8 +228,6 @@ unsigned char* A_r(unsigned char** roundKeys, unsigned char* input, short isArPr
         substitutionBoxes(result);
         /* Second layer of mod 256 additions and xors */
         secondtAddXor(result, nextRoundKey);
-
-
         /* Pseudo-Hadamard Transform */
         PHT(result);
         /* Armenian Shuffle */
