@@ -1,6 +1,6 @@
 #include "saferplus.h"
 #include <stdlib.h>
-#include <libc.h>
+#include <string.h>
 #include "aux.h"
 
 /* Precomputed values for the 16 biases */
