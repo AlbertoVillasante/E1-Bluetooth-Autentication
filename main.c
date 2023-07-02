@@ -35,6 +35,7 @@ int main() {
         btAddr = generateRandom(BTADDRSIZE);
         result = e1(key, random, btAddr);
         printHex(result);
+        printf("\n");
         free(result);
     }
     //gettimeofday(&final,NULL);
