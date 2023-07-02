@@ -11,8 +11,8 @@ int main() {
     unsigned char *key;
     unsigned char *btAddr;
     unsigned char *result;
-    struct timeval inicio, final;
-    double total;
+    //struct timeval inicio, final;
+    //double total;
 /*  Initialize variables to 0 for correction tests (not needed for performance tests)
     for (int i = 0; i < RANDOMSIZE; i++) {
         random[i] = 0;
